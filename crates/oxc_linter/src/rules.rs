@@ -82,6 +82,7 @@ mod eslint {
     pub mod require_yield;
     pub mod use_isnan;
     pub mod valid_typeof;
+    pub mod ubugeeei_sample;
 }
 
 mod typescript {
@@ -221,6 +222,7 @@ oxc_macros::declare_all_lint_rules! {
     eslint::require_yield,
     eslint::use_isnan,
     eslint::valid_typeof,
+    eslint::ubugeeei_sample,
     typescript::adjacent_overload_signatures,
     typescript::ban_ts_comment,
     typescript::ban_types,

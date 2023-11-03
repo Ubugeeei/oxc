@@ -1,0 +1,13 @@
+---
+source: crates/oxc_linter/src/tester.rs
+assertion_line: 105
+expression: ubugeeei_sample
+---
+  ⚠ eslint(ubugeeei-sample):
+   ╭─[ubugeeei_sample.tsx:1:1]
+ 1 │ ubugeeei;
+   · ─────────
+   ╰────
+  help: 
+
+
